@@ -19,6 +19,7 @@
 	# syscall is used for do it immediately
 	syscall
 	
+	# Display the product
 	li $v0, 4
 	la $a0, myAnothermsg
 	syscall
